@@ -10,7 +10,7 @@ const ExpenseItem = (props) => {
 
   const clickHandler = () => {
     setTitle(title === "new title" ? props.title : "new title");
-    console.log(title);
+    console.log(`${title} is clicked!`);
   };
 
   return (
