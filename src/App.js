@@ -30,7 +30,6 @@ const App = () => {
 
   return (
     <div className="App">
-      <h2>lets get started</h2>
       <Expenses items={expenses} />
     </div>
   );
